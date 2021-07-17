@@ -84,15 +84,6 @@ function renderstateLabels(stateLabels, xLinearScale, chosenXAxis, yLinearScale,
 
 function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
 
-  // var label;
-
-  // if (chosenXAxis === "hair_length") {
-  //   label = "Hair Length:";
-  // }
-  // else {
-  //   label = "# of Albums:";
-  // }
-
   var toolTip = d3.tip()
     .attr("class", "d3-tip")
     .offset([60, -20])
